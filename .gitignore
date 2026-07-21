@@ -1,0 +1,152 @@
+# ================================
+# 实验相关 - 不跟踪
+# ================================
+
+# 训练日志和实验记录
+logs/
+swanlab_logs/
+grid_search_results/
+artifacts/
+test_rain_output.txt
+train_output.txt
+
+# 模型检查点 (保留目录结构说明)
+models/*
+!models/.gitkeep
+!models/README.md
+
+# 数据文件 (通常太大)
+data/processed/*
+data/raw/*
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+!data/raw/MUTAG_README.md
+
+# ================================
+# Python相关
+# ================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ================================
+# IDE相关
+# ================================
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# ================================
+# 系统文件
+# ================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ================================
+# 临时文件
+# ================================
+
+# 临时输出
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.txt
+*.pyc
+*~
+
+
+# 图表和可视化输出
+*.png
+*.jpg
+*.pdf
+!docs/*.png
+!docs/*.jpg
+!docs/*.pdf
+
+# CSV数据文件
+*.csv
+*.xlsx
