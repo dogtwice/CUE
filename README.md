@@ -36,7 +36,3 @@ On Windows, pin the data-loader worker count to 0 for stability:
 CUE_NUM_WORKERS=0 python -m src.models.train -c mutag
 ```
 
-The release prints the best-model metrics at the end of training.
-
-Outputs (config, checkpoints, `best.pt`, local metric history) are written under
-`artifacts/main/MUTAG/<experiment-name>-<timestamp>/run-0/`.
